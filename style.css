@@ -127,16 +127,14 @@ body {
   filter: drop-shadow(0 28px 56px rgba(255, 140, 0, 0.14));
 }
 
-
 /* ─── Headline ─── */
 .headline-wrap {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 4;
+  position: relative;
+  z-index: 10;
   text-align: center;
-  padding: 0 16px 48px;
+  padding: 20px 20px 16px;
+  margin-top: -70px;
+  background: linear-gradient(to bottom, transparent 0%, rgba(12, 9, 0, 0.85) 30%);
 }
 
 .headline-main {
